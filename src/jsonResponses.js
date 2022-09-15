@@ -1,6 +1,6 @@
 const respondJSON = (request, response,status, object) => {
     response.writeHead(status, {'Content-Type': 'application/json'})
-
+    console.log(JSON.stringify(object))
     response.write(JSON.stringify(object))
 
     response.end()
@@ -33,7 +33,7 @@ const notFound = (request, response) => {
         id: 'notFound',
     }
 
-    respondJSON(request, response, 4040, respondJSON)
+    respondJSON(request, response, 404, responseJSON)
 }
 
 module.exports = {
