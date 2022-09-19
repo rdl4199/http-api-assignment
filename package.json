@@ -1,0 +1,19 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "assignment4",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdl4199/http-api-assignment.git"
+  },
+  "author": "Reese Lodwick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdl4199/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/rdl4199/http-api-assignment#readme"
+}
